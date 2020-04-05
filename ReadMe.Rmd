@@ -1,0 +1,55 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+##### Introduction
+This is an introductory playaround of Git to non-technical starters.
+This workshop is prepard into two levels.  
+
+I.  Individual git project management level  
+II.  Team collaboration level  
+ 
+ 
+##### Prilimary Installation ( if it is not done)
+1. Create Git hub account (un/ps)
+2. Install Git in PC
+3. Introduce yourself to Git in your PC (un/ps)
+   ```
+   git config --global user.name '<<yourUserName>>'
+   git config --global user.email '<<yourEmail>>'
+   git config --global --list
+   ```
+ 
+
+In your terminal window (command prompt), if your installation is done, check your git and its version 
+```
+git   
+git --version
+```
+ 
+In web, you should be seeing your repository url like this - https://github.com/<<yourName>>
+ 
+
+### I. Individual Project
+
+1. Create a R project in R-studio  
+
+2. In terminal window, locate your R project working directory  
+    ```git init```  
+    
+3. **Commit** your very first project to your local repository
+```
+  git status  
+  # Copy and paste the file names one by one in Red displayed by the git status command
+  git add <<New File1>> space <<NewFile2>>
+  git commit -m  '<<Commit message>>'  
+  #check again to see any file left to commit  
+  git status  
+```
+    
+4. **Push** your commit to your remote repository  
+    ```git push  "<<https://github.com/yourName/yourProjectName>>" ```  
+    
+5. See your remote repo in the web
+  
+    
