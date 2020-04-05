@@ -16,13 +16,13 @@ I design this github workshop into two levels.
 
 
 I. Individual Project
-1. Create a R project
-2. In terminal window,
+1. Create a R project in R-studio
+2. In terminal window, locate your R project working directory
     git init
-3. Commit your very first project to your repository
+3. Commit your very first project to your local repository
     git status
     git add <<New Files>>
-    git 
+    git commit "https://github.com/xxxxx"
     
 
 
