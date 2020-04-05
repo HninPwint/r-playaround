@@ -1,0 +1,32 @@
+I design this github workshop into two levels.
+ I. Individual git project management level
+ II. Team collaboration level
+ 
+ Prilimary Installation ( if it is not done)
+ 1. Create Git hub account (un/ps)
+ 2. Install Git in PC
+ 3. Introduce yourself to Git in your PC (un/ps)
+ 
+ If your installation is done, check your git and its version
+ git
+ git --version
+ 
+ In web, you should be having your repository url like this - https://github.com/HninPwint
+ 
+
+
+I. Individual Project
+1. Create a R project
+2. In terminal window,
+    git init
+3. Commit your very first project to your repository
+    git status
+    git add <<New Files>>
+    git 
+    
+
+
+
+Cloning 
+1. Create a project in R-studio
+  File -> New Project -> Version Control -> 
